@@ -30,7 +30,7 @@
 body {
   background: var(--ctp-crust);
   color: var(--ctp-text);
-  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-family: 'Fira Sans', 'Segoe UI', 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -38,6 +38,68 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.reason-list {
+  margin: 2em 0;
+  padding: 1em;
+  background: var(--ctp-surface0);
+  border-radius: 1em;
+  color: var(--ctp-yellow);
+}
+.special {
+  color: var(--ctp-peach);
+  font-weight: bold;
+  font-size: 1.3em;
+  text-shadow: 1px 1px var(--ctp-mauve);
+}
+.para1 {
+  background: var(--ctp-blue);
+  color: var(--ctp-crust);
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+.para2 {
+  background: var(--ctp-green);
+  color: var(--ctp-base);
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+.para3 {
+  background: var(--ctp-red);
+  color: var(--ctp-text);
+  padding: 1em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  text-decoration: underline;
+}
+.custom-btn {
+  background: var(--ctp-mauve);
+  color: var(--ctp-crust);
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 0.5em;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 1em 0;
+  transition: background 0.2s, color 0.2s;
+}
+.custom-btn:hover {
+  background: var(--ctp-pink);
+  color: var(--ctp-base);
+}
+footer {
+  margin-top: 3em;
+  color: var(--ctp-overlay2);
+  font-size: 1em;
+}
+.bookmark {
+  display: block;
+  margin: 2em 0;
+  color: var(--ctp-sapphire);
+  font-size: 1.1em;
 }
 
 h1 {
