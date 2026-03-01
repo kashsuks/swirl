@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swirl Gallery</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            background: linear-gradient(135deg, #cdd6f4 0%, #f5e0dc 100%);
+            color: #1e1e2e;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5em;
+        }
+        .gallery {
+            display: flex;
+            gap: 2em;
+            margin-bottom: 2em;
+        }
+        .gallery img {
+            border-radius: 1em;
+            box-shadow: 0 4px 24px #b4befe55;
+            max-width: 200px;
+        }
+        .caption {
+            font-size: 1.1rem;
+            background: #f5e0dc;
+            color: #575268;
+            padding: 0.5em 1em;
+            border-radius: 0.5em;
+            box-shadow: 0 2px 8px #b4befe33;
+        }
+    </style>
+</head>
+<body>
+    <h1>Swirl Gallery</h1>
+    <div class="gallery">
+        <img src="https://catppuccin.github.io/assets/cat.png" alt="Catppuccin Cat">
+        <img src="https://catppuccin.github.io/assets/latte.png" alt="Catppuccin Latte">
+        <img src="https://catppuccin.github.io/assets/frappe.png" alt="Catppuccin Frappe">
+    </div>
+    <div class="caption">A swirl of colors, a swirl of cats! Catppuccin brings joy to your screen.</div>
+</body>
+</html>
